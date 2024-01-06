@@ -66,9 +66,15 @@ div.hero_div {
   color: #e5e7eb;
 }
 
-p.placeholder {
+div.placeholder {
   background-color: gray;
   flex: 1;
+  text-align: center;
+}
+
+div.placeholder p {
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 
 button {
