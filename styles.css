@@ -48,6 +48,11 @@ a {
 
 section.introduction {
   background-color: #1f2937;
+  display: flex;
+}
+
+div.hero_div {
+  flex: 1;
 }
 
 .introduction h1 {
@@ -59,6 +64,11 @@ section.introduction {
 .introduction p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+p.placeholder {
+  background-color: gray;
+  flex: 1;
 }
 
 button {
