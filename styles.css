@@ -17,6 +17,15 @@ div.container {
   margin: auto;
 }
 
+div.vertical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+
+}
+
 header a {
   font-size: 18px;
   color: #e5e7eb;
