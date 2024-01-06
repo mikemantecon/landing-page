@@ -108,6 +108,21 @@ button {
   border: 1px solid white;
 }
 
+.cta {
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.cta-button {
+  justify-content: center;
+}
+
+.cta-container {
+  justify-content: center;
+}
+
+
 section.gallery h2 {
   font-size: 36px;
   font-weight: extra-bold;
