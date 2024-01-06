@@ -6,15 +6,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header, main, footer {
+main, footer {
   width: 80%;
   margin: auto;
 }
 
 header {
-  background-color: #1f2937; 
+  background-color: #1f2937;
+}
+
+div.container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 header a {
