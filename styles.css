@@ -18,9 +18,7 @@ section {
 
 div.container {
   display: flex;
-  justify-content: space-around;
-  width: 80%;
-  margin: auto;
+  margin: auto 10%;
 }
 
 div.vertical-container {
@@ -45,7 +43,11 @@ header#logo {
 nav ul {
   display: flex;
   list-style: none;
+}
 
+nav ul li {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 a {
@@ -133,12 +135,18 @@ h3 {
   font-weight: bold;
 }
 
+section.gallery {
+  padding: 80px;
+  padding-top: 20px;
+}
+
 section.gallery h2 {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1f2937; 
   text-align: center;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 div.gallery-img {
@@ -161,7 +169,7 @@ div.gallery-container p {
 div.div_placeholder {
   width:  120px;
   height: 120px;
-  border: 1px solid #3882f6;
+  border: 2px solid #3882f6;
   border-radius: 5px;
 }
 
