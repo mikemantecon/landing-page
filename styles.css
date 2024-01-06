@@ -102,10 +102,13 @@ button {
   width: 80%;
   margin: 80px auto;
   color: white;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #callToAction button {
-  border: 1px solid white;
+  border: 1px solid white;;
 }
 
 .cta {
@@ -122,6 +125,13 @@ button {
   justify-content: center;
 }
 
+.cta-container-2 * {
+  padding: 3px;
+}
+
+h3 {
+  font-weight: bold;
+}
 
 section.gallery h2 {
   font-size: 36px;
