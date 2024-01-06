@@ -8,6 +8,12 @@ body {
 
 header {
   background-color: #1f2937;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+section {
+  padding: 20px;
 }
 
 div.container {
@@ -49,6 +55,7 @@ a {
 section.introduction {
   background-color: #1f2937;
   display: flex;
+  padding-bottom: 50px;
 }
 
 div.hero_div {
@@ -80,6 +87,13 @@ div.placeholder p {
 button {
   background-color: #3882f6;
   color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #callToAction {
@@ -94,6 +108,7 @@ section.gallery h2 {
   font-weight: extra-bold;
   color: #1f2937; 
   text-align: center;
+  padding-bottom: 20px;
 }
 
 div.gallery-img {
@@ -105,6 +120,10 @@ div.gallery-container {
   justify-content: space-around;
   margin-right: 10%;
   margin-left: 10%;
+}
+
+div.gallery-container p {
+  width: 20%;
 }
 
 div.div_placeholder {
