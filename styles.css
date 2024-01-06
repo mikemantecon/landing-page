@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
 body {
   background-color: white;
   margin: 0;
-/* Explore the possiblity of adding the roboto font style here or in the HTML document */  
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
