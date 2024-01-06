@@ -99,8 +99,12 @@ button {
 #callToAction {
   background-color: #3882f6;
   width: 80%;
-  margin: auto;
+  margin: 80px auto;
   color: white;
+}
+
+#callToAction button {
+  border: 1px solid white;
 }
 
 section.gallery h2 {
@@ -132,7 +136,9 @@ div.div_placeholder {
 }
 
 section.quote {
-  background-color: lightgray;
+  background-color: #e5e7eb;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 blockquote {
@@ -147,8 +153,11 @@ blockquote {
 p#attribution {
   width: 80%;
   text-align: right;
+  font-weight: bold;
 }
+
 footer {
   background-color:#1f2937;
   color: white;
+  padding: 25px;
 }
