@@ -67,17 +67,21 @@ a {
 section.introduction {
   background-color: #1f2937;
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 div.hero_div {
   flex: 1;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
 }
 
 .introduction h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: extra-bold;
+  width: 80%;
 }
 
 .introduction p {
@@ -107,6 +111,10 @@ button {
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.hero_div button {
+  width: 20%;
 }
 
 #callToAction {
