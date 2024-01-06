@@ -21,6 +21,12 @@ div.container {
   margin: auto 10%;
 }
 
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 div.vertical-container {
   display: flex;
   flex-direction: column;
@@ -35,11 +41,15 @@ header a {
   color: #e5e7eb;
 }
 
-header#logo {
+header div p#logo {
   font-size: 28px;
   color: #f9faf8;
+  font-weight: bold;
 }
 
+nav {
+  justify-self: right;
+}
 nav ul {
   display: flex;
   list-style: none;
