@@ -83,7 +83,10 @@ button {
 }
 
 #callToAction {
-  background-color: #3882f6
+  background-color: #3882f6;
+  width: 80%;
+  margin: auto;
+  color: white;
 }
 
 section.gallery h2 {
@@ -110,7 +113,7 @@ div.div_placeholder {
 }
 
 section.quote {
-  background-color: #e5e7eb;
+  background-color: lightgray;
 }
 
 blockquote {
@@ -118,4 +121,15 @@ blockquote {
   font-weight: light;
   font-style: italic;
   color: #1f2937;
+  width: 80%;
+  margin: auto;
+}
+
+p#attribution {
+  width: 80%;
+  text-align: right;
+}
+footer {
+  background-color:#1f2937;
+  color: white;
 }
