@@ -93,6 +93,22 @@ section.gallery h2 {
   text-align: center;
 }
 
+div.gallery-img {
+  width: 20%;
+}
+
+div.gallery-container {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+div.div_placeholder {
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+}
+
 section.quote {
   background-color: #e5e7eb;
 }
