@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  margin: 0;
+/* Explore the possiblity of adding the roboto font style here or in the HTML document */  
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+}
+
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header#logo {
+  font-size: 28px;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.introduction {
+  background-color: #1f2937;
+}
+
+/* make sure to assign a class to the other section elements when you continue. */
